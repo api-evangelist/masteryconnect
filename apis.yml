@@ -1,8 +1,15 @@
 aid: masteryconnect
 name: MasteryConnect
-description: 'MasteryConnect is a company surfaced as a portfolio company of trinity-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: edtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'MasteryConnect is a K-12 formative assessment and standards-mastery
+  platform, now part of Instructure. It helps teachers and districts build
+  standards-aligned assessments (from prebuilt items or custom content), deliver
+  common and benchmark assessments, auto-score results, and turn the data into
+  intuitive mastery reports that guide interventions. It integrates tightly with
+  the Canvas LMS through single sign-on and real-time data synchronization.
+  MasteryConnect was originally surfaced as a portfolio company of Trinity
+  Ventures and added to the API Evangelist network; it was acquired by Instructure
+  in 2019 and does not publish a standalone public developer API — integration is
+  delivered through the Canvas LMS platform and its REST API.'
 url: https://raw.githubusercontent.com/api-evangelist/masteryconnect/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +17,51 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Edtech
+- Assessment
+- K-12 Education
+- Formative Assessment
+- Standards Mastery
+- Learning Management
+- Instructure
+image: https://www.instructure.com/themes/custom/instructure/logo.svg
+common:
+- type: DomainSecurity
+  url: security/masteryconnect-domain-security.yml
+- type: Website
+  url: https://www.masteryconnect.com
+- type: DeveloperPortal
+  url: https://www.instructure.com/k12/products/mastery/mastery-connect
+- type: Login
+  url: https://app.masteryconnect.com/login
+- type: SignUp
+  url: https://www.instructure.com/k12/products/mastery/request-demo
+- type: Support
+  url: https://www.instructure.com/support/canvas-support-faq
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
