@@ -44,7 +44,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- EdTech
+- Edtech
 - Assessment
 - K-12 Education
 - Formative Assessment
@@ -62,6 +62,11 @@ tags_raw:
 - Instructure
 image: https://www.instructure.com/themes/custom/instructure/logo.svg
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/instructure/
+  name: Instructure
+  x-relationship: acquired
+  x-evidence: "MasteryConnect was originally surfaced as a portfolio company of Trinity Ventures and added to the API Evangelist network; it was acquired by Instructure in 2019 and does not publish a standalone public developer API — integration is delive"
 - type: DomainSecurity
   url: security/masteryconnect-domain-security.yml
 - type: Website
