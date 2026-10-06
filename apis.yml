@@ -43,7 +43,7 @@ accessModel:
   - {url: 'https://www.masteryconnect.com', status: 301, note: 'declared website redirects to https://www.instructure.com/mastery — a different registrable domain (masteryconnect.com -> instructure.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - EdTech
@@ -64,6 +64,8 @@ tags_raw:
 - Instructure
 image: https://www.instructure.com/themes/custom/instructure/logo.svg
 common:
+- url: https://www.instructure.com/resources/blog
+  type: Blog
 - type: ParentCompany
   url: https://apis.io/providers/instructure/
   name: Instructure
